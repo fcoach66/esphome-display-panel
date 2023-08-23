@@ -52,7 +52,7 @@ class DisplayPanel {
         esphome::display::BaseFont *font;
 
         // Image. If provided will be used instead of of text.
-        esphome::display::Image *image = NULL;
+        esphome::display::BaseImage *image = NULL;
 
         // Text lines to print on the panel.
         std::vector<std::string> text = { };
