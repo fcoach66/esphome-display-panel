@@ -48,8 +48,8 @@ class DisplayPanel {
         // Color of the text printed to the panel
         esphome::Color textColor;
 
-        // Font of the text printed to the panel
-        esphome::display::Font *font;
+        //  of the text printed to the panel
+        esphome::display::BaseFont *font;
 
         // Image. If provided will be used instead of of text.
         esphome::display::Image *image = NULL;
